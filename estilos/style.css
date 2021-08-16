@@ -4,17 +4,45 @@
 }
 
 body {
-    background-color: rgb(172, 111, 230);
+    background-color: #9de3e6;
+
 }
+
+main {
+    background-color: white;
+    width: 560px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(0, 122, 119);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(0, 122, 119);
+}
+
+h3 {
+    font-size: 1.25em;
+    color: rgb(0, 122, 119);
+}
+
 
 img.lado {
     float: right;
 }
 
-main {
-    background-color: white;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px black;
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 122, 119);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(59, 227, 233);
 }
